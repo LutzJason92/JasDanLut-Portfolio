@@ -1,5 +1,6 @@
 html,
 body {
+  margin: 0 auto;
   max-width: 1440px;
   overflow-x: hidden;
   background-color: #171b34;
