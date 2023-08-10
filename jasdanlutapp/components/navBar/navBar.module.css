@@ -1,0 +1,35 @@
+.navBar {
+  background-color: blueviolet;
+  width: 1440;
+  height: 94px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.name {
+  min-width: 400px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.tabButtons {
+  max-width: 205px;
+  text-align: center;
+}
+
+.tabCluster {
+  display: flex;
+  flex-direction: row;
+  padding: 0 auto;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 820px;
+}
+.loginOut {
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
