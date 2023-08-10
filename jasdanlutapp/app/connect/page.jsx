@@ -1,7 +1,8 @@
+import styles from "./page.module.css"
 
 const Connect = () => {
   return (
-    <div>Connect</div>
+    <div className={styles.container}>Connect</div>
   )
 }
 
