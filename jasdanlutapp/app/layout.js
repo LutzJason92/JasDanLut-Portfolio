@@ -1,7 +1,6 @@
 import Footer from "@/components/footer/Footer";
 import NavBar from "@/components/navBar/NavBar";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -15,12 +14,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-        crossorigin="anonymous"
-      />
       <body>
         <NavBar />
         {children}

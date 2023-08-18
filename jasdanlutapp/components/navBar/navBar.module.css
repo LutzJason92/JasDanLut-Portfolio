@@ -1,21 +1,22 @@
 .navBar {
-  background-color: blueviolet;
+  background-color: rgb(157, 157, 157);
   width: 1440;
   height: 94px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .name {
   min-width: 400px;
   padding: 0 auto;
   margin: 0 auto;
+
+  text-align: center;
 }
 
 .tabButtons {
-  max-width: 205px;
+  width: 205px;
   text-align: center;
 }
 
